@@ -1,0 +1,67 @@
+# v0 sandbox internal files
+__v0_runtime_loader.js
+__v0_devtools.tsx
+__v0_jsx-dev-runtime.ts
+.snowflake/
+.v0-trash/
+.vercel/
+
+# Environment variables
+.env*.local
+
+# Common ignores
+node_modules
+.next/
+.DS_Store
+FRONTEND - Node.js / Next.js
+==========================================
+Dependencies
+
+frontend/node_modules/
+
+Next.js
+
+frontend/.next/
+frontend/out/
+
+Production build
+
+frontend/build/
+frontend/dist/
+
+Vercel
+
+frontend/.vercel/
+
+Environment variables
+
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+npm logs
+
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+Other package manager files
+
+.pnpm-debug.log*
+
+==========================================
+NODE.JS - General
+==========================================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+==========================================
+JAVASCRIPT / TYPESCRIPT
+==========================================
+
+*.tsbuildinfo

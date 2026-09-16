@@ -1,0 +1,113 @@
+# ==========================================
+
+# Python / Flask Backend
+
+# ==========================================
+
+# Virtual environments
+
+myenv/
+venv/
+.venv/
+env/
+
+# Python cache
+
+**pycache**/
+**/**pycache**/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environment variables / secrets
+
+.env
+.env.*
+!.env.example
+
+# Testing / coverage
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Python packaging
+
+*.egg
+*.egg-info/
+dist/
+build/
+wheels/
+pip-wheel-metadata/
+
+# Logs
+
+*.log
+logs/
+
+# Local databases
+
+*.db
+*.sqlite
+*.sqlite3
+
+# Local data / datasets
+
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.jsonl
+
+# Machine learning model files
+
+*.h5
+*.keras
+*.pt
+*.pth
+*.onnx
+*.safetensors
+*.bin
+
+# Archives
+
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+
+# Uploads / temporary files
+
+uploads/
+uploaded_files/
+temp/
+tmp/
+cache/
+
+# IDE / editor
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Certificates / keys
+
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Credentials
+
+credentials/
+secrets/

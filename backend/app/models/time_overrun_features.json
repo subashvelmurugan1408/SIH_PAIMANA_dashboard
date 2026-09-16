@@ -1,0 +1,10 @@
+[
+    "original_cost_crore",
+    "cumulative_expenditure_crore",
+    "physical_progress_pct",
+    "expenditure_to_original_cost_pct",
+    "financial_physical_gap",
+    "planned_duration_months",
+    "elapsed_duration_months",
+    "elapsed_planned_ratio"
+]
